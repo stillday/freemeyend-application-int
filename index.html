@@ -8,39 +8,43 @@
     </head>
     <body>
         <div class="container">
-            <div class="header clearfix">
+            <div class="navbar vertical">
                 <nav>
-                    <li>
-                        <ul>German</ul>
-                        <ul>English</ul>
-                        <ul>Italien</ul>
-                    </li>
+                    <ul>
+                        <li><a href="#">German</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Italien</a></li>
+                    </ul>
                 </nav>
+            </div>
+        </div>
+            <div class="header text">
                 <h3>Freemeyend</h3>
             </div>
-            <div class="slideshow">
-                <img class="freesliedes" src="image/18835168_1874846116088575_396133837_n.jpg">
-                <img class="freesliedes" src="image/18926623_1874895149417005_1468576032_o.jpg">
-                <img class="freesliedes" src="image/18946920_1874897372750116_1863610214_o.jpg">
-                <img class="freesliedes" src="image/18948847_1874845742755279_1727521451_o.jpg">
-                <img class="freesliedes" src="image/18948847_1874845872755266_1625032161_o.jpg">
-                <script>
-                var myIndex = 0;
-                carousel();
+        <div class="slideshow">
+            <img class="freesliedes" src="image/18835168_1874846116088575_396133837_n.jpg">
+            <img class="freesliedes" src="image/18926623_1874895149417005_1468576032_o.jpg">
+            <img class="freesliedes" src="image/18946920_1874897372750116_1863610214_o.jpg">
+            <img class="freesliedes" src="image/18948847_1874845742755279_1727521451_o.jpg">
+            <img class="freesliedes" src="image/18948847_1874845872755266_1625032161_o.jpg">
+            <script>
+            var myIndex = 0;
+            carousel();
 
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("freesliedes");
-                    for (i = 0; i < x.length; i++) {
-                       x[i].style.display = "none";  
-                    }
-                    myIndex++;
-                    if (myIndex > x.length) {myIndex = 1}    
-                    x[myIndex-1].style.display = "block";  
-                    setTimeout(carousel, 4000); // Change image every 2 seconds
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("freesliedes");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
                 }
-                </script>
-            </div>
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 4000); // Change image every 2 seconds
+            }
+            </script>
+        </div>
+        <div class="bodycontainer">
             <div class="textarea">
                 <p>
                     Griass Eich<br>
