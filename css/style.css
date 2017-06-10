@@ -6,8 +6,7 @@ body {
 
 .freesliedes {
     display:none;
-    width: 50%;
-    height: 70%;
+    width: 100%;
 }
 
 nav {
@@ -42,7 +41,7 @@ nav > ul > li > a {
 }
 
 .headline h3 {
-    font-size: 30px;
+    font-size: 50px;
     position: absolute;
     text-align: center;
     width: 100%;
