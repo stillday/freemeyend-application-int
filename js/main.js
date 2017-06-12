@@ -4,7 +4,7 @@
         module variables 
     */
     var myIndex = 0;
-    var carouseDelay = 3000; // Change image every 3 seconds
+    var carouseDelay = 4500; // Change image every 3 seconds
     var carouselImages; // Variable zum speichern des Arrays, in dem alle Bilder abgelegt werden
     
     init();  // die gesammelten functionen von unten werden gestartet.
