@@ -63,8 +63,11 @@ nav > ul > li > a {
     0% {
         color: #fcc50a;
     }
-    100% {
+    50% {
         color: #6d913f;
+    }
+    100% {
+        color: #fcc50a;
     }
 }
 
