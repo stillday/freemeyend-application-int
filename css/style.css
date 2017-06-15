@@ -11,6 +11,14 @@ body {
     opacity: 0.5;
 }
 
+.headline .material-icons {
+    z-index: 1;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 80px;
+}
+
 nav {
     z-index: 1;
     position: relative;
