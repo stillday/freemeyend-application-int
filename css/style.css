@@ -11,12 +11,20 @@ body {
     opacity: 0.5;
 }
 
-.headline .material-icons {
+.down.icon {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.down.icon .material-icons {
     z-index: 1;
     width: 100%;
     display: inline-block;
     text-align: center;
     font-size: 80px;
+    color: #000;
 }
 
 nav {
