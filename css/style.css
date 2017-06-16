@@ -91,3 +91,7 @@ nav > ul > li > a {
     margin: 0 10% 0 10%;
     text-align: center;
 }
+
+.textarea {
+    margin: 5% 0 5% 0;
+}
