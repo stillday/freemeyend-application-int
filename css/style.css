@@ -9,6 +9,29 @@ body {
     text-align: center;
 }
 
+.austria {
+    height: 24px;
+    width: 24px;
+    background-image: url(/image/flags/24/Austria.png);
+}
+
+.german {
+    height: 24px;
+    width: 24px;
+    background-image: url(/image/flags/24/Germany.png);
+}
+
+.english {
+    height: 24px;
+    width: 24px;
+    background-image: url(/image/flags/24/United%20Kingdom.png);
+}
+
+.italy {
+    height: 24px;
+    width: 24px;
+    background-image: url(/image/flags/24/Italy.png);
+}
 
 .down.icon {
     z-index: 1;

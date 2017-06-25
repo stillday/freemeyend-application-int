@@ -31,6 +31,7 @@
         carouselImages = document.getElementsByClassName("freesliedes"); // zum einmaligen laden aller Bilder aus der HTML Datei
     }
     
+    
     function setupEvents() {    // für weiter Funktionen
         
     }
