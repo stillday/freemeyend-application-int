@@ -14,6 +14,6 @@ function changetoenglish() {
 }
 
 function changetoitaly() {
-    document.getElementById('welcome').innerHTML ='Ok ragazze e ragazzi!<br>Una reggae-band di Vienna ha un problema serio con Babylon!<br>11 musicisti liberi wanna see you dance,<br>porta il tuo culo sul dancefloor e balla con noi!<br>1 ❤ Freemeyend<br>Butta via la Baddaration!Chi siamo?<br>Siamo 11 musicisti con la mente aperta:<br>dall’ Austria, dalla Germania, dalla Spagna,<br>dalla Slovacchia, dall’ Ungheria<br>e dall’ Italia<br>Suoniamo Roots Rocksteady e Ska!<br>'
+    document.getElementById('welcome').innerHTML = 'Ok ragazze e ragazzi!<br>Una reggae-band di Vienna ha un problema serio con Babylon!<br>11 musicisti liberi wanna see you dance,<br>porta il tuo culo sul dancefloor e balla con noi!<br>1 ❤ Freemeyend<br>Butta via la Baddaration!Chi siamo?<br>Siamo 11 musicisti con la mente aperta:<br>dall’ Austria, dalla Germania, dalla Spagna,<br>dalla Slovacchia, dall’ Ungheria<br>e dall’ Italia<br>Suoniamo Roots Rocksteady e Ska!<br><a href="http://freemeyend.at/">www.freemeyend.at</a>'
 }
  
