@@ -9,16 +9,18 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <!-- End of the import for the audio player       -->
+   <!-- import of the button function  -->
+      <script src="/js/button.js"></script>
     </head>
     <body>
         <div class="container">
            <div class="header">
                 <nav> 
                     <ul>
-                        <li><button class="austria" onclick="austria"></button></li>
+                        <li><button class="austria" onclick="changetoaustrian()"></button></li>
                         <li><button class="german" onclick="changetogerman()" value="Text in German"></button></li>
-                        <li><button class="english" onclick="english"></button></li>
-                        <li><button class="italy" onlick="italy"></button></li>
+                        <li><button class="english" onclick="changetoenglish()"></button></li>
+                        <li><button class="italy" onlick="changetoitaly()"></button></li>
                     </ul>
                </nav>
                 <div class="headline">
@@ -118,7 +120,5 @@
 <!-- not in use       <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>-->
         <script src="js/index.js"></script>
 <!-- end of the import -->
-<!-- import of the button function  -->
-       <script src="js/button.js"></script>
     </body>
 </html>
