@@ -9,16 +9,18 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <!-- End of the import for the audio player       -->
+   <!-- import of the button function  -->
+      <script src="/js/button.js"></script>
     </head>
     <body>
         <div class="container">
            <div class="header">
                 <nav> 
                     <ul>
-                        <li><img src="image/flags/24/Austria.png" alt="Austria" /></li>
-                        <li><img src="image/flags/24/Germany.png" alt="German" /></li>
-                        <li><img src="image/flags/24/United%20Kingdom(Great%20Britain).png" alt="English" /></li>
-                        <li><img src="image/flags/24/Italy.png" alt="Italy" /></li>
+                        <li><button class="austria" onclick="changetoaustrian()"></button></li>
+                        <li><button class="german" onclick="changetogerman()" value="Text in German"></button></li>
+                        <li><button class="english" onclick="changetoenglish()"></button></li>
+                        <li><button class="italy" onclick="changetoitaly()"></button></li>
                     </ul>
                </nav>
                 <div class="headline">
