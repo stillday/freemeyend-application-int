@@ -1,7 +1,7 @@
 //Function to change the text of the page
 
 function changetoaustrian() {
-    document.getElementById('welcome').innerHTML = 'Griass Eich<br><br>Welcome<br>Lust auf Tanzen zu sonnigen Sommerklängen?<br>Dann komm auf eines unserer Konzerte<br>der international zusammengewürfelten<br>in Wien lebenden Roots/Rocksteady/Ska-Band<br>FREEMEYEND.<br>Führe deine Tanzschuhe wieder aus – sie werden es dir danken.<br>Aalright Hawara und Hawararinnen!<br>Anadda leiwande Reggaeband<br>has a serious Kölch with Babylon!<br>11 zuagroaste, glücklich freilaufende Freedom Fighters<br>wanna see you daunz,<br>so swing your Oarsch<br>onto the dancefloor!!!><br>1 ❤ FREEMEYEND<br>Hau weg di BADDA-ration<br>Roots/Rocksteady/Ska outta Vienna.<br><br><a href="http://freemeyend.at/">www.freemeyend.at</a>'
+    document.getElementById('welcome').innerHTML = ' Wir sind eine<br> international zusammengewürfelte<br> Reggae-Ska-Band,<br> die sich in den letzten zwei Jahren<br> als „Zugroaste“ in Wien<br>  durch die Liebe zur Musik<br> gesucht und gefunden haben.<br> <br> Mit kraftvollen Bläserarrangements,<br> mehrstimmigem Gesang<br> und einer energiegeladenen<br> Bühnenperformance<br> wollen wir auch das ruhigste<br> Tanzbein zum Shaken bringen &#128522;<br> <br> 1 &#9829; FREEMEYEND<br>'
 }
 
 
