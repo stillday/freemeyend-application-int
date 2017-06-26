@@ -4,7 +4,7 @@
         module variables 
     */
     var myIndex = 0;
-    var carouseDelay = 4500; // Change image every 3 seconds
+    var carouseDelay = 6500; // Change image every 3 seconds
     var fadeTiming = 2000; // Fade Timing for FadeIn and fadeOut of the images
     var carouselImages; // Variable zum speichern des Arrays, in dem alle Bilder abgelegt werden
     
